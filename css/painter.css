@@ -54,6 +54,7 @@ body {
 }
 
 .header-line a:hover {
+    cursor: url(../img/cursor.cur), auto;
     color: #e87e7e;
 }
 
@@ -185,10 +186,12 @@ h1:after {
 }
 
 .button a:hover {
+    cursor: url(../img/cursor.cur), auto;
     background-image: linear-gradient(0deg, #e77d7d 0%, #e77d7d 99%, #f89e9e 100%);
 }
 
 .button a:last-child:hover>.none {
+    cursor: url(../img/cursor.cur), auto;
     display: block;
 }
 
@@ -463,13 +466,13 @@ main {
     width: 445rem;
     max-height: 715rem;
     overflow: hidden;
-    background: url(../img/tiger.jpg) center;
     border-radius: 25rem;
 }
 
 .double-picture {
     position: relative;
     top: -45px;
+    text-align: center;
 }
 
 .horror-picture {
@@ -651,6 +654,7 @@ option {
 }
 
 .buy-buttons a:last-child:hover {
+    cursor: url(../img/cursor.cur), auto;
     background: #fff;
 }
 
@@ -668,6 +672,7 @@ a#appoint {
 }
 
 .button1 a:first-child:hover {
+    cursor: url(../img/cursor.cur), auto;
     background-image: linear-gradient(0deg, #e77d7d 0%, #f89e9e 99%, #f89e9e 100%);
 }
 
@@ -872,10 +877,12 @@ a.tel:before {
 }
 
 .second .face:hover {
+    cursor: url(../img/cursor.cur), auto;
     transform: scale(2.6);
 }
 
 .second a:hover {
+    cursor: url(../img/cursor.cur), auto;
     transform: scale(1.3);
 }
 
@@ -1112,7 +1119,7 @@ a.tel:before {
 
 .beach {
     width: 605rem;
-    min-height: 385rem;
+    max-height: 385rem;
     overflow: hidden;
     background: url(../img/beach.png) center;
     border-radius: 25rem;
@@ -1121,7 +1128,7 @@ a.tel:before {
 
 .park {
     width: 605rem;
-    min-height: 385rem;
+    max-height: 385rem;
     overflow: hidden;
     background: url(../img/park.jpg) center;
     border-radius: 25rem;
