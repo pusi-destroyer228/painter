@@ -70,7 +70,7 @@ body {
 }
 
 .language {
-    width: 100rem;
+    width: 60rem;
     column-gap: 8rem;
 }
 
@@ -174,7 +174,6 @@ h1:after {
     position: relative;
     border-radius: 50%;
     padding: 0 40.5rem;
-    filter: drop-shadow(0px 1px 19px rgba(234, 131, 131, 0.54));
     background-image: linear-gradient(0deg, #e77d7d 0%, #f89e9e 99%, #f89e9e 100%);
     transition: 0.3s;
 }
@@ -186,7 +185,7 @@ h1:after {
 }
 
 .button a:hover {
-    filter: drop-shadow(0px 1px 49px rgba(234, 131, 131, 0.34));
+    background-image: linear-gradient(0deg, #e77d7d 0%, #e77d7d 99%, #f89e9e 100%);
 }
 
 .button a:last-child:hover>.none {
@@ -703,7 +702,7 @@ input {
 }
 
 input:focus {
-    border: 1px solid #6cd87e;
+    border: 1px solid #d81b1b;
 }
 
 input.last:focus {
@@ -838,6 +837,7 @@ a.tel:before {
 }
 
 .second {
+    position: relative;
     max-width: 20rem;
     right: 225rem;
 }
@@ -847,49 +847,35 @@ a.tel:before {
     top: 25rem;
 }
 
-.second a:before {
-    position: absolute;
-    background: url(../img/sprite.png) no-repeat;
+.inst {
+    background-position: 10%;
+    background-repeat: no-repeat;
+    background-image: url(../img/instagram.svg);
 }
 
-.second a:first-child::before {
-    content: '';
-    position: absolute;
-    width: 15px;
-    height: 15px;
-    transition: 0.2s;
+.face {
+    transform: scale(1.7);
+    background-position: 40%;
+    background-repeat: no-repeat;
+    background-image: url(../img/facebook.svg);
 }
 
-.second a:nth-child(2n)::before {
-    content: '';
-    position: absolute;
-    width: 9px;
-    height: 14px;
-    background-position: -17px 0;
-    transition: 0.2s;
-    margin-left: 2px;
+.pinter {
+    background-position: 40%;
+    background-repeat: no-repeat;
+    background-image: url(../img/pinterest.png);
 }
 
-.second a:nth-child(3n)::before {
-    content: '';
-    position: absolute;
-    width: 15px;
-    height: 15px;
-    background-position: -28px 0;
-    transition: 0.2s;
+.telegram {
+    background-repeat: no-repeat;
+    background-image: url(../img/telegram.svg);
 }
 
-.second a:last-child::before {
-    content: '';
-    position: absolute;
-    width: 16px;
-    height: 16px;
-    background-position: -44px 0;
-    transition: 0.2s;
-    margin: 0;
+.second .face:hover {
+    transform: scale(2.6);
 }
 
-.second a:hover::before {
+.second a:hover {
     transform: scale(1.3);
 }
 
