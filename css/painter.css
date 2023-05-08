@@ -8,6 +8,7 @@ html {
 }
 
 body {
+    cursor: url(../img/cursor\ 1.cur), auto;
     background-color: #fff5f5;
     font-family: "Montserrat";
 }
@@ -463,6 +464,7 @@ main {
 }
 
 .tiger {
+    flex-shrink: 0;
     width: 445rem;
     max-height: 715rem;
     overflow: hidden;
@@ -476,6 +478,7 @@ main {
 }
 
 .horror-picture {
+    flex-shrink: 0;
     width: 445rem;
     max-height: 715rem;
     background: url(../img/horror.jpg) center;
@@ -484,8 +487,7 @@ main {
 }
 
 .slider-our-pictures {
-    width: 2100rem;
-    justify-content: space-between;
+    column-gap: 40rem;
 }
 
 .scroll {
@@ -710,6 +712,10 @@ input:focus {
     border: 1px solid #d81b1b;
 }
 
+select:focus {
+    border: 1px solid #d81b1b;
+}
+
 input.last:focus {
     border: 1px solid #d81b1b;
 }
@@ -796,7 +802,15 @@ footer {
     margin-bottom: 15rem;
 }
 
-.footer-menu a {
+.space-between {
+    justify-content: space-between;
+}
+
+#ds {
+    top: 0px;
+}
+
+.footer-menu .asa {
     line-height: 2em;
     font-size: 16rem;
     color: #000000;
@@ -804,6 +818,42 @@ footer {
     text-decoration: none;
     padding-left: 43rem;
     margin-left: 94px;
+}
+
+.footer-menu .mail {
+    font-size: 16rem;
+    color: #000000;
+    font-weight: 600;
+    text-decoration: none;
+    padding-left: 43rem;
+    margin-left: 94px;
+}
+
+.footer-menu .tel {
+    line-height: 2em;
+    font-size: 16rem;
+    color: #000000;
+    font-weight: 600;
+    text-decoration: none;
+    padding-left: 43rem;
+    margin-left: 94px;
+}
+
+#dsf {
+    padding-bottom: 80px;
+}
+
+#asd {
+    padding-bottom: 15px;
+}
+
+#asda {
+    top: 20px;
+    padding-bottom: 30px;
+}
+
+#ds {
+    right: 100px;
 }
 
 .slide-left{
@@ -848,8 +898,11 @@ a.tel:before {
 }
 
 .second a {
+    top: 25px;
+    width: 20px;
+    height: 20px;
+    display: block;
     position: relative;
-    top: 25rem;
 }
 
 .inst {
@@ -866,9 +919,9 @@ a.tel:before {
 }
 
 .pinter {
-    background-position: 40%;
+    background-position: 30%;
     background-repeat: no-repeat;
-    background-image: url(../img/pinterest.png);
+    background-image: url(../img/PINTEREST_icon-icons.com_65491.svg);
 }
 
 .telegram {
