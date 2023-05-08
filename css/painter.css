@@ -1,0 +1,1241 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 1px;
+}
+
+body {
+    background-color: #fff5f5;
+    font-family: "Montserrat";
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+.relative {
+    position: relative;
+}
+
+.wrapper {
+    max-width: 1620rem;
+    margin: auto;
+}
+
+.header-line {
+    padding-top: 30rem;
+    align-items: center;
+    margin-bottom: 125rem;
+}
+
+.logo {
+    width: 160rem;
+    margin-right: 25rem;
+    align-items: center;
+}
+
+.header-line p {
+    font-size: 24rem;
+    color: #000000;
+    font-weight: 800;
+    align-items: center;
+}
+
+.header-line a {
+    transition: 0.2s;
+}
+
+.header-line a:hover {
+    color: #e87e7e;
+}
+
+.navigation {
+    column-gap: 12rem;
+    width: 540rem;
+}
+
+.navigation a {
+    font-size: 18rem;
+    color: #000;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.language {
+    width: 100rem;
+    column-gap: 8rem;
+}
+
+.language a {
+    font-size: 18rem;
+    color: #000000;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.line1 {
+    content: "";
+    position: absolute;
+    width: 3rem;
+    height: 237rem;
+    border-radius: 2rem;
+    background-color: #f79b9b;
+}
+
+.line2 {
+    content: "";
+    position: absolute;
+    width: 3rem;
+    height: 237rem;
+    border-radius: 2rem;
+    top: 400rem;
+    background-color: #f79b9b;
+}
+
+.soc-nav {
+    position: absolute;
+    top: 267rem;
+    left: -16rem;
+}
+
+.sociality {
+    margin-left: 7rem;
+}
+
+.sociality a {
+    display: block;
+    margin-bottom: 15rem;
+}
+
+.sociality a {
+    width: 18rem;
+    height: 15rem;
+    transition: 0.3s;
+}
+
+.sociality .second {
+    position: relative;
+    left: -6rem;
+    top: 242rem;
+}
+
+.about {
+    padding-top: 170rem;
+    padding-left: 40rem;
+    max-width: 570rem;
+}
+
+h1 {
+    font-size: 48rem;
+    color: #000000;
+    font-weight: 800;
+    margin-bottom: 34rem;
+}
+
+h1:after {
+    content: url(../img/paint-tool.png);
+    position: absolute;
+    top: 124rem;
+
+}
+
+.about p {
+    font-size: 24rem;
+    color: #000000;
+    font-weight: 700;
+    margin-bottom: 84rem;
+}
+
+.button {
+    column-gap: 60rem;
+}
+
+.button a:first-child {
+    font-size: 24rem;
+    color: #000000;
+    font-weight: 800;
+    text-decoration: none;
+    border-radius: 40rem;
+    background-image: linear-gradient(0deg, #e77d7d 0%, #f89e9e 99%, #f89e9e 100%);
+    padding: 26rem 143rem;
+    transition: 0.2s;
+    margin-left: 65rem;
+}
+
+.button a:nth-child(2n) {
+    position: relative;
+    border-radius: 50%;
+    padding: 0 40.5rem;
+    filter: drop-shadow(0px 1px 19px rgba(234, 131, 131, 0.54));
+    background-image: linear-gradient(0deg, #e77d7d 0%, #f89e9e 99%, #f89e9e 100%);
+    transition: 0.3s;
+}
+
+.button a:nth-child(2n) img {
+    position: absolute;
+    top: 22rem;
+    right: 22rem;
+}
+
+.button a:hover {
+    filter: drop-shadow(0px 1px 49px rgba(234, 131, 131, 0.34));
+}
+
+.button a:last-child:hover>.none {
+    display: block;
+}
+
+.none {
+    display: none;
+    position: absolute;
+    left: 105rem;
+    bottom: 80px;
+    max-width: 85rem;
+    padding: 6.5rem 40rem;
+    border-radius: 20rem;
+    background-color: #ffffff;
+}
+
+.none p {
+    font-size: 18rem;
+    color: #000000;
+    font-weight: 600;
+}
+
+.none:before {
+    content: url(../img/stick.png);
+    position: absolute;
+    left: -55px;
+    bottom: -41rem;
+
+}
+
+.girl-image {
+    position: absolute;
+    width: 915rem;
+    min-height: 869rem;
+    background: url(../img/beautiful-girl-draws-a-picture-in-the-park_1150-4058.jpg) center;
+    -webkit-mask-image: url(../img/mask-bg.svg);
+    mask-image: url(../img/mask-bg.svg);
+    -webkit-mask-size: cover;
+    mask-size: cover;
+    right: 70rem;
+    top: 90rem;
+    z-index: -1;
+}
+
+.girl-image-ellipse {
+    position: absolute;
+    max-width: 1100rem;
+    min-height: 950rem;
+    background: url(../img/ellipse.svg) no-repeat;
+    right: 10rem;
+}
+
+.bg1 {
+    position: absolute;
+    background: url(../img/ellipse.svg) no-repeat;
+    right: 0;
+    top: 80rem;
+    width: 1050rem;
+    min-height: 895rem;
+    z-index: -1;
+}
+
+.circle1 {
+    position: absolute;
+    width: 31px;
+    height: 31px;
+    border-radius: 50%;
+    background-color: #efd7d7;
+    right: 0;
+    top: 180rem;
+    right: 10%;
+}
+
+.circle2 {
+    position: absolute;
+    width: 31px;
+    height: 31px;
+    border-radius: 50%;
+    background-color: #efd7d7;
+    top: 730rem;
+    right: 50%;
+}
+
+.circle3 {
+    position: absolute;
+    width: 31px;
+    height: 31px;
+    border-radius: 50%;
+    background-color: #efd7d7;
+    top: 870rem;
+    right: 57%;
+}
+
+.circle4 {
+    position: absolute;
+    width: 78px;
+    height: 78px;
+    border-radius: 50%;
+    background-color: #efd7d7;
+    top: 770rem;
+    right: 6%;
+}
+
+.circle5 {
+    position: absolute;
+    width: 31px;
+    height: 31px;
+    border-radius: 50%;
+    background-color: #efd7d7;
+    top: 0;
+    left: 0;
+
+}
+
+.circle6 {
+    position: absolute;
+    width: 31px;
+    height: 31px;
+    border-radius: 50%;
+    background-color: #efd7d7;
+    top: 0;
+    left: 45%;
+}
+
+.circle7 {
+    position: absolute;
+    width: 31px;
+    height: 31px;
+    border-radius: 50%;
+    background-color: #efd7d7;
+    top: 440rem;
+    left: 0;
+}
+
+.circle8 {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background-color: #efd7d7;
+    top: 470rem;
+    left: 45%;
+}
+
+.circle9 {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background-color: #efd7d7;
+    top: 0;
+    left: 90%;
+}
+
+header {
+    margin-bottom: 260rem;
+}
+
+main {
+    padding-top: 100rem;
+}
+
+.album {
+    width: 850px;
+    z-index: 0;
+}
+
+
+.album-card:nth-child(2n) .album-img3 {
+    background-position: -200px -42px;
+}
+
+
+.album-card:nth-child(3n) .album-img3 {
+    background-position: -375px -25px;
+}
+
+.album-card:nth-child(4n) .album-img3 {
+    background-position: -570px -55px;
+}
+
+.album-card:nth-child(5n) .album-img3 {
+    background-position: -770px -128px;
+}
+
+
+.album-img1 {
+    position: absolute;
+    margin-left: 12rem;
+    margin-bottom: 8rem;
+    width: 135rem;
+    min-height: 328rem;
+    border-radius: 20px;
+    background-color: #efd7d7;
+}
+
+.album-img2 {
+    position: absolute;
+    width: 135rem;
+    margin-left: 4rem;
+    min-height: 328rem;
+    border-radius: 20px;
+    background-color: #e77d7d;
+    z-index: 1;
+}
+
+.album-img3 {
+    position: relative;
+    background-image: url(../img/painting-woman.jpg);
+    width: 135rem;
+    min-height: 328rem;
+    border-radius: 20px;
+    background-color: #000;
+    z-index: 5;
+}
+
+.album-card:first-child,
+.album-card:last-child {
+    margin-top: 80rem;
+}
+
+.album-card:nth-child(2n) {
+    margin-top: 32rem;
+}
+
+
+.album-card:first-child .album-img3 {
+    background-position: -65px -90px;
+}
+
+.album-card:nth-child(2n) .album-img1,
+.album-card:nth-child(2n) .album-img2,
+.album-card:nth-child(2n) .album-img3 {
+    width: 169px;
+    min-height: 411px;
+}
+
+.album-card:nth-child(3n) .album-img1,
+.album-card:nth-child(3n) .album-img2,
+.album-card:nth-child(3n) .album-img3 {
+    width: 192px;
+    min-height: 468px;
+}
+
+.about-me {
+    margin-bottom: 270rem;
+}
+
+.about-me-text h2 {
+    position: relative;
+    font-size: 48rem;
+    color: #000000;
+    font-weight: 800;
+    margin-bottom: 60rem;
+    right: 50px;
+}
+
+.about-me-text p {
+    position: relative;
+    font-size: 18rem;
+    color: #000000;
+    font-weight: 700;
+    margin-bottom: 30rem;
+}
+
+.about-me-text p::before {
+    content: url(../img/small-tool.png);
+    position: absolute;
+    left: -50px;
+    bottom: -1px;
+}
+
+.tiger {
+    width: 445rem;
+    max-height: 715rem;
+    overflow: hidden;
+    background: url(../img/tiger.jpg) center;
+    border-radius: 25rem;
+}
+
+.double-picture {
+    position: relative;
+    top: -45px;
+}
+
+.horror-picture {
+    width: 445rem;
+    max-height: 715rem;
+    background: url(../img/horror.jpg) center;
+    overflow: hidden;
+    border-radius: 25rem;
+}
+
+.slider-our-pictures {
+    width: 2100rem;
+    justify-content: space-between;
+}
+
+.scroll {
+    padding-top: 50rem;
+    overflow-x: scroll;
+    margin-bottom: 180rem;
+}
+
+.slider-our-pictures {
+    padding-left: 40rem;
+    padding-right: 40rem;
+}
+
+.scroll::-webkit-scrollbar {
+    height: 20rem;
+}
+
+.scroll::-webkit-scrollbar-track {
+    background: linear-gradient(to bottom, #fff5f5 40%, #efd7d7 40%, #efd7d7 60%, #fff5f5 60%);
+}
+
+h2.works {
+    font-size: 48rem;
+    color: #000000;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 60rem;
+}
+
+.scroll::-webkit-scrollbar-thumb {
+    width: 80px;
+    border-radius: 10rem;
+    background-color: #e77d7d;
+}
+
+
+
+.buy-picture h2 {
+    font-size: 48px;
+    color: #000000;
+    font-weight: 800;
+    margin-left: 125rem;
+    margin-bottom: 130rem;
+}
+
+.girl-image2 {
+    position: absolute;
+    background: url(../img/artist-painting.jpg) center no-repeat;
+    width: 780rem;
+    min-height: 600rem;
+    -webkit-mask-image: url(../img/buy-poster.svg);
+    mask-image: url(../img/buy-poster.svg);
+    -webkit-mask-size: cover;
+    mask-size: cover;
+    z-index: -1;
+}
+
+.bg-buy1 {
+    position: absolute;
+    background: url(../img/artist-bg1.svg) no-repeat;
+    top: 175rem;
+    left: -16rem;
+    width: 1050rem;
+    min-height: 895rem;
+    z-index: -2;
+}
+
+.bg-buy2 {
+    position: absolute;
+    background: url(../img/artist-bg2.svg) no-repeat;
+    top: 162rem;
+    left: -27rem;
+    width: 1050rem;
+    min-height: 895rem;
+    z-index: -3;
+}
+
+.buy {
+    width: 700rem;
+    text-align: right;
+    padding-top: 110rem;
+}
+
+.buy h3 {
+    font-size: 30rem;
+    color: #000000;
+    font-family: "Montserrat";
+    margin-bottom: 110rem;
+    text-align: center;
+}
+
+.buy select {
+    position: relative;
+    -webkit-appearance: none;
+    appearance: none;
+    cursor: pointer;
+    background-color: transparent;
+    width: 100%;
+    padding: 24rem 50px;
+    border-radius: 20rem;
+    border: 1px solid #000000;
+    font-size: 16px;
+    color: #afafaf;
+    font-weight: 600;
+    font-family: "Montserrat";
+    outline: none;
+}
+
+.buy p {
+    margin-bottom: 55rem;
+}
+
+option {
+    font-size: 16px;
+    color: #afafaf;
+    font-weight: 600;
+    font-family: "Montserrat";
+}
+
+.buy label {
+    position: relative;
+    display: block;
+    background-color: #fff;
+    border-radius: 20rem;
+}
+
+.buy label::before {
+    content: "";
+    position: absolute;
+    right: 50rem;
+    top: 35%;
+    width: 14px;
+    height: 14px;
+    border-left: 2px solid #5d5d5d;
+    border-bottom: 2px solid #5d5d5d;
+    cursor: pointer;
+    z-index: 0;
+    transform: rotate(-45deg);
+}
+
+.buy-buttons:first-child {
+    margin-left: 47.5%;
+    display: flex;
+    max-width: 700rem;
+}
+
+.buy-buttons a {
+    display: inline-block;
+    font-size: 16rem;
+    color: #000000;
+    font-weight: 800;
+    text-decoration: none;
+}
+
+.buy-buttons a:last-child {
+    display: inline-block;
+    font-size: 16rem;
+    color: #000000;
+    font-weight: 800;
+    text-decoration: none;
+    transition: 0.5s;
+    padding: 16rem 54rem;
+    background: linear-gradient(0deg, #e77d7d 0%, #f89e9e 99%, #f89e9e 100%);
+    border: 1px solid #000000;
+    border-radius: 26rem;
+}
+
+.buy-buttons a:last-child:hover {
+    background: #fff;
+}
+
+a#appoint {
+    padding: 22px 82.5px;
+    border-radius: 31rem;
+}
+
+.button1 a:first-child {
+    border-radius: 26rem;
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    padding: 16rem 39.4rem;
+    margin-right: 34px;
+}
+
+.button1 a:first-child:hover {
+    background-image: linear-gradient(0deg, #e77d7d 0%, #f89e9e 99%, #f89e9e 100%);
+}
+
+.girl-image3 {
+    position: absolute;
+    background: url(../img/peoples-painting.jpg) center no-repeat;
+    width: 785rem;
+    min-height: 600rem;
+    top: 300px;
+    -webkit-mask-image: url(../img/buy-poster.svg);
+    mask-image: url(../img/buy-poster.svg);
+    -webkit-mask-size: cover;
+    mask-size: cover;
+    z-index: -1;
+    right: 40rem;
+}
+
+input {
+    position: relative;
+    cursor: pointer;
+    background-color: #fff;
+    max-width: 598px;
+    width: 100%;
+    padding: 25rem 50px;
+    border-radius: 20rem;
+    border: 1px solid rgb(0, 0, 0);
+    font-size: 16px;
+    color: #000;
+    font-weight: 600;
+    outline: none;
+    transition: 0.3s;
+}
+
+input:focus {
+    border: 1px solid #6cd87e;
+}
+
+input.last:focus {
+    border: 1px solid #d81b1b;
+}
+
+.last-buy {
+    text-align: left;
+}
+
+.bg-buy3 {
+    position: absolute;
+    background: url(../img/artist-bg1.svg) no-repeat;
+    width: 1050rem;
+    right: -215rem;
+    top: 290rem;
+    min-height: 895rem;
+    z-index: -2;
+}
+
+.bg-buy4 {
+    position: absolute;
+    background: url(../img/artist-bg2.svg) no-repeat;
+    width: 1050rem;
+    right: -220rem;
+    top: 277rem;
+    min-height: 895rem;
+    z-index: -3;
+}
+
+.learn-painting {
+    padding-top: 170rem;
+    overflow: hidden;
+    padding-bottom: 270rem;
+}
+
+iframe {
+    width: 100%;
+    height: 577rem;
+    position: absolute;
+    top: -70px;
+}
+
+.iframe {
+    width: 100%;
+    height: 510px;
+}
+
+footer {
+    overflow: hidden;
+    min-height: 510rem;
+}
+
+.copyrite {
+    width: 100%;
+    background-color: #fff5f5;
+    text-align: center;
+}
+
+.copyrite p {
+    font-size: 16rem;
+    color: #757575;
+    font-weight: 600;
+    padding: 25rem 0 21rem 0;
+}
+
+.footer-menu {
+    position: absolute;
+    width: 628px;
+    border-radius: 20px;
+    background-color: #fff5f5;
+    z-index: 1;
+    top: 90rem;
+    left: 150rem;
+    padding-top: 66rem;
+    padding-bottom: 63rem;
+    max-width: 628rem;
+    transition: 1s;
+}
+
+.footer-menu h2 {
+    font-size: 48rem;
+    color: #000000;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 15rem;
+}
+
+.footer-menu a {
+    line-height: 2em;
+    font-size: 16rem;
+    color: #000000;
+    font-weight: 600;
+    text-decoration: none;
+    padding-left: 43rem;
+    margin-left: 94px;
+}
+
+.slide-left{
+    left: 350rem;
+}
+
+a.mail {
+    position: relative;
+    line-height: 5em;
+}
+
+a.mail:before {
+    content: "";
+    position: absolute;
+    width: 26px;
+    height: 18px;
+    left: 0;
+    bottom: 0;
+    background: url(../img/sprite.png);
+    background-position: 0 24px;
+}
+
+a.tel {
+    position: relative;
+}
+
+a.tel:before {
+    content: "";
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left: 0;
+    bottom: 0;
+    background: url(../img/sprite.png);
+    background-position: 32px 25px;
+}
+
+.second {
+    max-width: 20rem;
+    right: 225rem;
+}
+
+.second a {
+    position: relative;
+    top: 25rem;
+}
+
+.second a:before {
+    position: absolute;
+    background: url(../img/sprite.png) no-repeat;
+}
+
+.second a:first-child::before {
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    transition: 0.2s;
+}
+
+.second a:nth-child(2n)::before {
+    content: '';
+    position: absolute;
+    width: 9px;
+    height: 14px;
+    background-position: -17px 0;
+    transition: 0.2s;
+    margin-left: 2px;
+}
+
+.second a:nth-child(3n)::before {
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-position: -28px 0;
+    transition: 0.2s;
+}
+
+.second a:last-child::before {
+    content: '';
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    background-position: -44px 0;
+    transition: 0.2s;
+    margin: 0;
+}
+
+.second a:hover::before {
+    transform: scale(1.3);
+}
+
+.circ1 {
+    position: absolute;
+    width: 45rem;
+    height: 45rem;
+    background-color: #efd7d7;
+    border-radius: 50%;
+    bottom: 0;
+    left: 200rem;
+    z-index: -1;
+}
+
+
+.circ2 {
+    position: absolute;
+    width: 290rem;
+    height: 290rem;
+    background-color: #efd7d7;
+    border-radius: 50%;
+    bottom: 0;
+    right: -70rem;
+    z-index: -1;
+    bottom: -200rem;
+}
+
+.circ3 {
+    position: absolute;
+    width: 35rem;
+    height: 35rem;
+    background-color: #efd7d7;
+    border-radius: 50%;
+    bottom: -890rem;
+    left: 130rem;
+}
+
+.circ4 {
+    position: absolute;
+    width: 25rem;
+    height: 25rem;
+    background-color: #efd7d7;
+    border-radius: 50%;
+    bottom: -880rem;
+    right: 100rem;
+}
+
+.circl5,
+.circl6,
+.circl7,
+.circl8,
+.circl9,
+.circl10,
+.circl11,
+.circ12,
+.circ13,
+.circ14,
+.circ15,
+.circ16,
+.circ17,
+.circ18,
+.circ19,
+.circ20,
+.circ21,
+.circ22 {
+    position: absolute;
+    z-index: -2;
+}
+
+.circl5 {
+    width: 30rem;
+    height: 30rem;
+    background-color: #efd7d7;
+    border-radius: 50%;
+    left: 19%;
+    top: 120rem;
+}
+
+.circl6 {
+    width: 65rem;
+    height: 65rem;
+    background-color: #efd7d7;
+    border-radius: 50%;
+    left: 30%;
+    top: 45rem;
+}
+
+.circl7 {
+    width: 35rem;
+    height: 35rem;
+    background-color: #efd7d7;
+    border-radius: 50%;
+    left: 40%;
+    top: 150rem;
+}
+
+.circl8 {
+    width: 45rem;
+    height: 45rem;
+    background-color: #efd7d7;
+    border-radius: 50%;
+    right: 5rem;
+    top: 170rem;
+}
+
+.circl9 {
+    width: 15rem;
+    height: 15rem;
+    background-color: #efd7d7;
+    border-radius: 50%;
+    left: 8%;
+    top: 800rem;
+}
+
+.circl10 {
+    width: 25rem;
+    height: 25rem;
+    background-color: #efd7d7;
+    border-radius: 50%;
+    left: 15%;
+    top: 810rem;
+}
+
+.circl11 {
+    width: 85rem;
+    height: 85rem;
+    background-color: #efd7d7;
+    border-radius: 50%;
+    left: 40%;
+    top: 820rem;
+}
+
+.circ12 {
+    width: 25rem;
+    height: 25rem;
+    background-color: #efd7d7;
+    border-radius: 50%;
+    left: 68%;
+    top: 760rem;
+}
+
+.ovfh {
+    overflow: hidden;
+}
+
+.circ13 {
+    width: 30rem;
+    height: 30rem;
+    background-color: #efd7d7;
+    border-radius: 50%;
+    top: 290rem;
+}
+
+.circ14 {
+    width: 25rem;
+    height: 25rem;
+    background-color: #efd7d7;
+    border-radius: 50%;
+    top: 290rem;
+    right: 0;
+}
+
+.circ15 {
+    width: 20rem;
+    height: 20rem;
+    background-color: #efd7d7;
+    border-radius: 50%;
+    bottom: 210rem;
+    left: 24%;
+}
+
+.circ16 {
+    width: 85rem;
+    height: 85rem;
+    background-color: #efd7d7;
+    border-radius: 50%;
+    bottom: 115rem;
+    left: 44%;
+}
+
+.circ17 {
+    width: 30rem;
+    height: 30rem;
+    background-color: #efd7d7;
+    border-radius: 50%;
+    bottom: 90rem;
+    left: 73%;
+}
+
+.circ18 {
+    width: 55rem;
+    height: 55rem;
+    background-color: #efd7d7;
+    border-radius: 50%;
+    bottom: 70rem;
+    right: 0%;
+}
+
+.circ19 {
+    width: 95rem;
+    height: 95rem;
+    background-color: #efd7d7;
+    border-radius: 50%;
+    bottom: -30rem;
+    left: 7%;
+}
+
+.circ20 {
+    width: 25rem;
+    height: 25rem;
+    background-color: #efd7d7;
+    border-radius: 50%;
+    bottom: 20rem;
+    left: 32%;
+}
+
+.circ21 {
+    width: 15rem;
+    height: 15rem;
+    background-color: #efd7d7;
+    border-radius: 50%;
+    bottom: 50rem;
+    left: 57%;
+}
+
+.circ22 {
+    width: 10rem;
+    height: 10rem;
+    background-color: #efd7d7;
+    border-radius: 50%;
+    bottom: 10rem;
+    left: 81%;
+}
+
+.beach {
+    width: 605rem;
+    min-height: 385rem;
+    overflow: hidden;
+    background: url(../img/beach.png) center;
+    border-radius: 25rem;
+    margin-bottom: 45rem;
+}
+
+.park {
+    width: 605rem;
+    min-height: 385rem;
+    overflow: hidden;
+    background: url(../img/park.jpg) center;
+    border-radius: 25rem;
+}
+
+.none-a{
+    text-decoration: none;
+}
+
+@media screen and (max-width:1700px) {
+    .wrapper {
+        max-width: 1520rem;
+    }
+}
+
+@media screen and (max-width:1580px) {
+    .wrapper {
+        max-width: 1420rem;
+    }
+
+    .album {
+        width: 900rem;
+        margin-right: 100rem;
+    }
+
+    .girl-image {
+        width: 706rem;
+        min-height: 670rem;
+        top: 200rem;
+        right: 25rem;
+    }
+
+    .bg1 {
+        position: absolute;
+        background: url(../img/header-max-width-1580px-bg.svg) no-repeat center;
+        top: 190rem;
+        right: 0;
+        width: 805rem;
+        min-height: 669rem;
+    }
+}
+
+@media screen and (max-width:1480px) {
+    .wrapper {
+        max-width: 1360rem;
+    }
+
+    .album {
+        width: 1070rem;
+    }
+
+    .girl-image3 {
+        width: 625rem;
+        min-height: 475rem;
+        right: 0;
+        top: 370rem;
+        background-position-x:-30px ;
+        right: 40rem;
+    }
+
+    .girl-image2 {
+        width: 625rem;
+        min-height: 475rem;
+    }
+
+    .bg-buy1{
+        background: url(../img/patyh.svg) no-repeat;
+    }
+
+    .bg-buy2{
+        background: url(../img/patyh1.svg) no-repeat;
+    }
+
+    .bg-buy3{
+        background: url(../img/patyh.svg) no-repeat;
+        right: 0px;
+        width: 680rem;
+        height: 400px;
+        top: 355px;
+    }
+
+    .bg-buy4{
+        background: url(../img/patyh1.svg) no-repeat;
+        right: 1px;
+        width: 690rem;
+        top: 342rem;
+
+    }
+}
+
+@media screen and (max-width:1400px) {
+    .wrapper {
+        max-width: 1300rem;
+    }
+
+    .album {
+        width: 1290rem;
+        margin-right: 100rem;
+    }
+
+
+}
+
